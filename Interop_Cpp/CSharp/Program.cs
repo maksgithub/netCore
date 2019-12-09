@@ -7,9 +7,13 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            CliClass s = new CliClass();
+            var s = new CliClass();
             s.Hello();
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello from c#!");
+
+            Console.WriteLine(); 
+            CliClass.StaticHello();
+            Console.WriteLine("Hello from c#!");
         }
     }
 }

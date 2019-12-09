@@ -2,6 +2,7 @@
 class SourceCpp
 {
 public:
-    static void PrintHelloFromCpp();
+    static void StaticPrintHelloFromCpp();
+    void PrintHelloFromCpp();
 };
 

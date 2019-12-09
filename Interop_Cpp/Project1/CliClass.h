@@ -6,10 +6,8 @@ namespace Project1
     public ref class CliClass
     {
     public:
-        void Hello()
-        {
-            SourceCpp::PrintHelloFromCpp();
-        }
+        static void StaticHello();
+        void Hello();
     };
 }
 
