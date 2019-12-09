@@ -1,12 +1,15 @@
 #pragma once
 #include "../Interop_Cpp/SourceCpp.h"
 
-ref class CliClass
+namespace Project1
 {
-public:
-    void Hello()
+    public ref class CliClass
     {
-        SourceCpp::PrintHelloFromCpp();
-    }
-};
+    public:
+        void Hello()
+        {
+            SourceCpp::PrintHelloFromCpp();
+        }
+    };
+}
 

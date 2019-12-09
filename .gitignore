@@ -2,3 +2,6 @@
 /Interop_Cpp/Debug
 /Interop_Cpp/Interop_Cpp/Debug
 Debug/
+obj/
+/Interop_Cpp/CSharp/obj/CSharp.csproj.nuget.cache
+/Interop_Cpp/CSharp/obj/CSharp.csproj.nuget.dgspec.json
